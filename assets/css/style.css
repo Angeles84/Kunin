@@ -87,10 +87,21 @@ h1 {
 
 .h3-planifica {
   color: #fff;
+  font-size: 1.4rem;
+}
+@media all and (min-width: 768px) {
+  .h3-planifica {
+    font-size: 1.7rem;
+  }
 }
 
 .parrafo-planifica {
   color: #fff;
+}
+@media all and (min-width: 768px) {
+  .parrafo-planifica {
+    font-size: 1.1rem;
+  }
 }
 
 .texto-borde {
@@ -98,7 +109,14 @@ h1 {
   color: transparent;
   font-family: 'Open Sans', sans-serif; 
   font-size: 6rem;
-  padding-top: 4rem;
+  padding-top: 6rem;
   padding-bottom: 0;
   margin-bottom: 0;
+}
+
+.imagen-main {
+  background-image: url(../img/imagen-main.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left; 
 }
