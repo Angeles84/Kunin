@@ -9,6 +9,9 @@ body {
   margin: 0;
 }
 
+/* Landingpage 1 */
+/* Header */
+
 .logo {
   width: 8rem;
 }
@@ -66,6 +69,11 @@ h1 {
   margin-bottom: 4rem;
   font-weight: 500;
   font-size: 1rem;
+  transition: all 0.5s ease;
+}
+.fondo-azul:hover {
+  background-color: #002782;
+  color: #0668F5;
 }
 @media all and (min-width: 768px) {
   .fondo-azul {
@@ -74,6 +82,8 @@ h1 {
     font-size: 1.2rem;
   }
 }
+
+/* Section 1 */
 
 .imagen-planifica {
   background-image: url(../img/imagen-planifica.jpg);
@@ -115,6 +125,7 @@ h1 {
   margin-bottom: 0;
 }
 
+/* Main */
 .imagen-main {
   background-image: url(../img/imagen-main.jpg);
   background-repeat: no-repeat;
@@ -147,10 +158,15 @@ h1 {
   font-weight: 600;
 }
 
+/* Footer */
+
 .footer {
   background-color: #F6F6F6;
   font-size: 0.8rem;
 }
+
+/* Landingpage 2 */
+/* Header */
 
 .imagen-header-2 {
   background-image: url(../img/imagen-header-2.jpg);
@@ -172,7 +188,9 @@ h1 {
   margin-bottom: 4rem;
   font-weight: 500;
   font-size: 1rem;
+  transition: all 0.5s ease;
 }
+
 @media all and (min-width: 768px) {
   .fondo-azul-2 {
     margin-top: 5rem;
@@ -180,6 +198,12 @@ h1 {
     font-size: 1.2rem;
   }
 }
+.fondo-azul-2:hover {
+  background-color: #002782;
+  color: #0668F5;
+}
+/* Landingpage 3 */
+/* Header */
 
 .imagen-header-3 {
   background-image: url(../img/imagen-header-3.jpg);
