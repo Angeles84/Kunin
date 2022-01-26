@@ -146,3 +146,8 @@ h1 {
 .h2-main {
   font-weight: 600;
 }
+
+.footer {
+  background-color: #F6F6F6;
+  font-size: 0.8rem;
+}
