@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="shortcut icon" type="image/png" href="assets/img/k.png">
+  <title>Kunin</title>
+</head>
+<body>
+  <header class="pt-4 pt-md-5 imagen-header-contacto">
+    <img src="assets/img/logo.png" alt="" class="logo img-fluid">
+    <h1 class="h1-header-contacto">Con estos <span class="azul">simples<br>pasos</span> podrás lograr<br>tu control financiero.</h1>
+
+    <div class="row px-0">
+      <div class="col-12 col-lg-6 px-0">
+        <div class="row px-0">
+          <div class="col-12 col-md-3 px-0 text-center">
+            <img src="assets/img/money.png" alt="" class="img-fluid mt-3 pr-md-3">
+          </div>
+          <div class="col-12 col-md-9 px-0 text-center text-md-left">
+            <p class="parrafo-contacto mt-2 mb-4">Conecta tus cuentas bancarias con<br>nuestro partner Finerio (certificado<br>por la CMF de Chile), de forma<br><b>segura, simple y transparente.*</b></p>
+          </div>
+          <div class="col-12 col-md-3 px-0 text-center py-md-3">
+            <img src="assets/img/notebook.png" alt="" class="img-fluid mt-1 pr-md-3">
+          </div>
+          <div class="col-12 col-md-9 px-0 text-center text-md-left py-md-3">
+           <p class="parrafo-contacto mt-2 mb-4">Ten visibilidad de tus lucas,<br>planificate sin mayores esfuerzos<br><b>'trackea' tus metas. </b></p>
+          </div>
+          <div class="col-12 col-md-3 px-0 text-center">
+            <img src="assets/img/calc.png" alt="" class="img-fluid mt-1">
+          </div>
+          <div class="col-12 col-md-9 px-0 text-center text-md-left">
+            <p class="parrafo-contacto mt-2 mb-4"><b>Crea reglas,</b>y automatiza la<br>gestión de tus finanzas.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-6 d-none d-lg-inline-block"></div>
+    </div> 
+
+    <div class="row px-0 mt-md-5 mt-lg-1">
+      <div class="col-12 col-md-5 col-lg-6 d-none d-md-inline-block"></div>
+      <div class="col-12 col-md-7 col-lg-6 px-0">
+        <div class="row px-0">
+          <div class="col-12 col-md-3 col-lg-4 px-0 text-center text-md-left text-lg-right">
+            <img src="assets/img/campana.png" alt="" class="img-fluid mt-2 mt-lg-0 pr-lg-3">
+          </div>
+          <div class="col-12 col-md-9 col-lg-8 px-0 text-center text-md-left">
+            <p class="parrafo-campana mt-2 mt-md-0 mb-0 pl-md-2 pr-lg-4">Las claves bancarias <b>son solo de acceso y consulta</b> a la web de tu banco. Con ellas no se pueden realizar operaciones bancarias</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center text-md-left mt-md-3">
+      <button 
+        class="btn rounded-pill fondo-verde px-5 px-md-4 px-lg-5"
+        data-toggle="modal"
+        data-target="#modalProbar"
+      >
+        Quiero probarlo ahora
+      </button>
+      <button 
+        class="btn rounded-pill fondo-azul-contacto px-5 px-md-4 px-lg-5"
+        data-toggle="modal"
+        data-target="#modalMasTarde"
+      >
+        Quiero probar más tarde
+      </button>
+    </div>
+  </header>
+
+  <footer class="footer px-4 px-md-5 py-3 py-md-5 text-center">
+    <div class="row">
+      <div class="col-12 col-md-6 text-lg-left">
+        <img src="assets/img/logo.png" alt="" class="logo img-fluid mt-3 mt-md-0 mb-4 mb-md-0 pl-lg-5">
+      </div>
+      <div class="col-12 col-md-6 text-md-right">
+        <p class="pt-md-4 pt-lg-3 mb-2 mb-lg-0"><b>© 2021 KUNIN Todos los derechos reservados.</b><br>
+          Servicios bancarios provistos por los miembros de la CMF de Chile</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- MODAL PROBAR -->
+  <div
+    class="modal fade"
+    id="modalProbar"
+    tabindex="-1"
+    aria-labelledby="modalProbar"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="text-center mt-3 mb-4">
+            <h5><b>Conéctate con tu banco</b></h5>
+          </div>
+          <div class="row my-3">
+            <div class="col-6 mb-2 text-center btn-group btn-group-toggle" data-toggle="buttons">
+              <label class="btn btn-banco santander">
+                <input type="radio" name="banco" id="santander"/>
+                Santander
+              </label>
+            </div>
+            <div class="col-6 mb-2 text-center btn-group btn-group-toggle" data-toggle="buttons">
+              <label class="btn btn-banco estado">
+                <input type="radio" name="banco" id="estado"/>
+                Estado
+              </label>
+            </div>
+            <div class="col-6 mb-2 text-center btn-group btn-group-toggle" data-toggle="buttons">
+              <label class="btn btn-banco chile">
+                <input type="radio" name="banco" id="chile"/>
+                De Chile
+              </label>
+            </div>
+            <div class="col-6 mb-2 text-center btn-group btn-group-toggle" data-toggle="buttons">
+              <label class="btn btn-banco bci">
+                <input type="radio" name="banco" id="bci"/>
+                Banco BCI
+              </label>
+            </div>
+            <div class="col-6 mb-2 text-center btn-group btn-group-toggle" data-toggle="buttons">
+              <label class="btn btn-banco falabella">
+                <input type="radio" name="banco" id="falabella"/>
+                Falabella
+              </label>
+            </div>
+            <div class="col-6 mb-2 text-center btn-group btn-group-toggle" data-toggle="buttons">
+              <label class="btn btn-banco scotiabank">
+                <input type="radio" name="banco" id="scotiabank"/>
+                Scotiabank
+              </label>
+            </div>
+            <div class="col-6 mb-2 text-center btn-group btn-group-toggle" data-toggle="buttons">
+              <label class="btn btn-banco ripley">
+                <input type="radio" name="banco" id="ripley"/>
+                Ripley
+              </label>
+            </div>
+            <div class="col-6 mb-2 text-center btn-group btn-group-toggle" data-toggle="buttons">
+              <label class="btn btn-banco itau">
+                <input type="radio" name="banco" id="itau"/>
+                Itaú
+              </label>
+            </div>
+            <div class="col-6 mb-2 text-center btn-group btn-group-toggle" data-toggle="buttons">
+              <label class="btn btn-banco security">
+                <input type="radio" name="banco" id="security"/>
+                Security
+              </label>
+            </div>
+            <div class="col-6 mb-2 text-center btn-group btn-group-toggle" data-toggle="buttons">
+              <label class="btn btn-banco bice">
+                <input type="radio" name="banco" id="bice"/>
+                Bice
+              </label>
+            </div>
+          </div>
+          <div class="text-center my-4">
+            <button
+              type="button"
+              class="btn btn-outline-secondary btn-lg rounded-pill btn-block"
+            >
+              Continuar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL MAS TARDE -->
+  <div
+    class="modal fade"
+    id="modalMasTarde"
+    tabindex="-1"
+    aria-labelledby="modalMasTarde"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="text-center my-3">
+            <img
+              src="assets/img/logo.png"
+              class="img img-fluid"
+              alt="..."
+              height="80"
+            />
+          </div>
+          <div class="text-center font-weight-bold my-4" style="font-size: 2rem">
+            ¡Agradecemos tu tiempo!
+          </div>
+          <div
+            class="text-center font-weight-bold my-3 px-4"
+            style="font-size: 1.2rem"
+          >
+            ¿Podrías indicarnos porque razón no deseas probar la solución?
+          </div>
+
+          <div class="my-4 px-4" style="font-size: 1.1rem">
+            <form>
+              <div class="form-check my-3">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="razon"
+                  id="desinteres"
+                  value="desinteres"
+                />
+                <label class="form-check-label" for="desinteres">
+                  No me interesa el producto
+                </label>
+              </div>
+              <div class="form-check my-3">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="razon"
+                  id="temor"
+                  value="temor"
+                />
+                <label class="form-check-label" for="temor">
+                  Tengo temor al mal uso de mis datos
+                </label>
+              </div>
+              <div class="form-check my-3">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="razon"
+                  id="publicidad"
+                  value="publicidad"
+                />
+                <label class="form-check-label" for="publicidad">
+                  No quiero que me llenen de publicidad
+                </label>
+              </div>
+              <div class="row my-3 px-0">
+                <div class="col-4 px-0">
+                  <div class="form-check mt-1">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="razon"
+                      id="otro"
+                      value="otro"
+                    />
+                    <label class="form-check-label" for="otro">
+                      Otro ¿cuál?
+                    </label>
+                  </div>
+                </div>
+                <div class="col-8 px-0">
+                  <input class="form-control form-control-sm" type="text">
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div class="mt-5 mb-4">
+            <button
+              class="btn btn-enviar-tarde rounded-pill btn-block"
+              type="button"
+            >
+              Enviar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+</body>
+</html>

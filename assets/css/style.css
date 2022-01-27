@@ -202,6 +202,7 @@ h1 {
   background-color: #002782;
   color: #0668F5;
 }
+
 /* Landingpage 3 */
 /* Header */
 
@@ -221,4 +222,240 @@ h1 {
   .imagen-header-3 {
     padding-left: 4rem;
   }
+}
+
+/* Contacto */
+/* Header */
+
+.imagen-header-contacto {
+  background-image: url(../img/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; 
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+@media all and (min-width: 768px) {
+  .imagen-header-contacto {
+    padding-left: 4rem;
+  }
+}
+
+.h1-header-contacto {
+  font-size: 1.9rem;
+}
+@media all and (min-width: 768px) {
+  .h1-header-contacto {
+    font-size: 2.5rem;
+    margin-bottom: 4rem;
+  }
+}
+@media all and (min-width: 992px) {
+  .h1-header-contacto {
+    font-size: 3.7rem;
+    margin-bottom: 4rem;
+  }
+}
+
+.fondo-verde {
+  background-color: #28BD09;
+  color: #fff;
+  margin-top: 3rem;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: all 0.5s ease;
+}
+
+@media all and (min-width: 768px) {
+  .fondo-verde {
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+    margin-right: 4rem;
+  }
+}
+.fondo-verde:hover {
+  background-color: #1e9207;
+  color: #fff;
+}
+
+.fondo-azul-contacto {
+  background-color: #0000FF;
+  color: #fff;
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: all 0.5s ease;
+}
+.fondo-azul-contacto:hover {
+  background-color: #002782;
+  color: #0668F5;
+}
+@media all and (min-width: 768px) {
+  .fondo-azul-contacto {
+    font-size: 1.2rem;
+    margin-top: 3rem;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .parrafo-contacto {
+    font-size: 1.1rem;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .parrafo-campana{
+    color: #fff;
+  }
+}
+
+/* Modales */
+
+.pasos{
+  font-size: 1.2rem;
+}
+
+.disclaimer{
+  font-size: 1.2rem;
+  color: white;
+}
+
+.simples-pasos {
+color: #0668f5 !important;
+}
+
+.btn-mastarde {
+background-color: #0668f5;
+color: white;
+}
+
+.btn-enviar-tarde{
+  background-color: #0000ff;
+  color: white;
+}
+
+.btn-enviar-tarde:hover{
+  background-color: #0404a0;
+  color: white;
+}
+
+.btn-mastarde:hover {
+background-color: #004cb8;
+color: white;
+}
+
+.btn-ahora {
+background-color: #28bd09;
+color: white;
+}
+
+.btn-ahora:hover {
+background-color: #1f9507;
+color: white;
+}
+
+.btn-banco {
+width: 180px;
+padding: 15px;
+font-size: x-large;
+}
+
+.santander {
+background-color: #d92d1f;
+color: white;
+}
+
+.santander:hover {
+background-color: #992318;
+color: white;
+}
+
+.estado {
+background-color: #f18640;
+color: white;
+}
+
+.estado:hover {
+background-color: #cf7030;
+color: white;
+}
+.chile {
+background-color: #235a92;
+color: white;
+}
+
+.chile:hover {
+background-color: #183d62;
+color: white;
+}
+
+.bci {
+background-color: #213953;
+color: white;
+}
+
+.bci:hover {
+background-color: #325a85;
+color: white;
+}
+
+.falabella {
+background-color: #205334;
+color: white;
+}
+
+.falabella:hover {
+background-color: #308150;
+color: white;
+}
+
+.scotiabank {
+background-color: #da332c;
+color: white;
+}
+
+.scotiabank:hover {
+background-color: #a32520;
+color: white;
+}
+
+.ripley {
+background-color: #666666;
+color: white;
+}
+
+.ripley:hover {
+background-color: #3f3e3e;
+color: white;
+}
+
+.itau {
+background-color: #2a548e;
+color: white;
+}
+
+.itau:hover {
+background-color: #1d3a64;
+color: white;
+}
+
+.security {
+background-color: #603584;
+color: white;
+}
+
+.security:hover {
+background-color: #3f2357;
+color: white;
+}
+
+.bice {
+background-color: #255992;
+color: white;
+}
+
+.bice:hover {
+background-color: #1c4570;
+color: white;
 }
