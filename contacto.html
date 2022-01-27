@@ -51,7 +51,7 @@
             <img src="assets/img/campana.png" alt="" class="img-fluid mt-2 mt-lg-0 pr-lg-3">
           </div>
           <div class="col-12 col-md-9 col-lg-8 px-0 text-center text-md-left">
-            <p class="parrafo-campana mt-2 mt-md-0 mb-0 pl-md-2 pr-lg-4">Las claves bancarias <b>son solo de acceso y consulta</b> a la web de tu banco. Con ellas no se pueden realizar operaciones bancarias</p>
+            <p class="parrafo-campana mt-2 mt-md-0 mb-0 pl-md-2 pr-lg-4">Las claves bancarias <b>son solo de acceso y consulta</b> a la web de tu banco. Con ellas no se pueden realizar operaciones bancarias.</p>
           </div>
         </div>
       </div>
@@ -82,7 +82,7 @@
       </div>
       <div class="col-12 col-md-6 text-md-right">
         <p class="pt-md-4 pt-lg-3 mb-2 mb-lg-0"><b>© 2021 KUNIN Todos los derechos reservados.</b><br>
-          Servicios bancarios provistos por los miembros de la CMF de Chile</p>
+          Servicios bancarios provistos por los miembros de la CMF de Chile.</p>
       </div>
     </div>
   </footer>
@@ -167,6 +167,9 @@
             <button
               type="button"
               class="btn btn-outline-secondary btn-lg rounded-pill btn-block"
+              data-dismiss="modal"
+              data-toggle="modal"
+              data-target="#modalMuchasGracias"
             >
               Continuar
             </button>
@@ -192,7 +195,7 @@
               src="assets/img/logo.png"
               class="img img-fluid"
               alt="..."
-              height="80"
+              style="width: 9rem"
             />
           </div>
           <div class="text-center font-weight-bold my-4" style="font-size: 2rem">
@@ -267,10 +270,57 @@
 
           <div class="mt-5 mb-4">
             <button
-              class="btn btn-enviar-tarde rounded-pill btn-block"
+              class="btn btn-enviar-tarde btn-lg rounded-pill btn-block"
               type="button"
+              data-dismiss="modal"
+              data-toggle="modal"
+              data-target="#modalMuchasGracias"
             >
               Enviar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div
+    class="modal fade"
+    id="modalMuchasGracias"
+    tabindex="-1"
+    aria-labelledby="modalMuchasGracias"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="text-center my-3">
+            <img
+              src="assets/img/logo.png"
+              class="img img-fluid"
+              alt="..."
+              style="width: 10rem"
+            />
+          </div>
+          <div class="text-center my-5" style="font-size: 2.5rem">
+            <h2><b>¡Muchas Gracias!</b></h2>
+          </div>
+          <div
+            class="text-center my-3 px-5"
+            style="font-size: 1.1rem"
+          >
+            <p class="px-4">Pronto nos comunicaremos contigo, para darte la bienvenida oficial a un mundo lleno de oportunidades financieras, como no lo habías imaginado.</p>
+          </div>
+
+          <div class="mt-5 mb-4">
+            <button
+              class="btn btn-enviar-tarde btn-lg rounded-pill btn-block"
+              type="button"
+              data-dismiss="modal"
+              data-toggle="modal"
+              data-target="#modalMuchasGracias"
+            >
+              Cerrar
             </button>
           </div>
         </div>
