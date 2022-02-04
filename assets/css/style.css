@@ -21,11 +21,15 @@ body {
   }
 }
 
+.color-fondo {
+  background-color: #D7DDEB;
+}
+
 .imagen-header {
   background-image: url(../img/imagen-header.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center; 
+  background-position: left; 
   padding-left: 1.5rem;
 }
 @media all and (min-width: 768px) {
@@ -46,7 +50,6 @@ h1 {
 }
 @media all and (min-width: 768px) {
   h1 {
-    font-weight: 600;
     margin-top: 5rem;
     margin-bottom: 3rem;
     font-size: 3.7rem;
@@ -172,7 +175,7 @@ h1 {
   background-image: url(../img/imagen-header-2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center; 
+  background-position: left; 
   padding-left: 1.5rem;
 }
 @media all and (min-width: 768px) {
@@ -240,6 +243,11 @@ h1 {
     padding-left: 4rem;
   }
 }
+@media all and (min-width: 1600px) {
+  .imagen-header-contacto {
+    padding-left: 7rem;
+  }
+}
 
 .h1-header-contacto {
   font-size: 1.9rem;
@@ -254,6 +262,11 @@ h1 {
   .h1-header-contacto {
     font-size: 3.7rem;
     margin-bottom: 4rem;
+  }
+}
+@media all and (min-width: 1600px) {
+  .h1-header-contacto {
+    font-size: 4.5rem;
   }
 }
 
@@ -301,6 +314,11 @@ h1 {
 @media all and (min-width: 768px) {
   .parrafo-contacto {
     font-size: 1.1rem;
+  }
+}
+@media all and (min-width: 1600px) {
+  .parrafo-contacto {
+    font-size: 1.5rem;
   }
 }
 
