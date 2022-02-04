@@ -22,16 +22,21 @@ body {
 }
 
 .color-fondo {
-  background-color: #D7DDEB;
+  background: linear-gradient(90deg, #ECEEFB 0%, #F1F4FD 31%, #F1F4FD 56%, #DCDFEE 100%);
 }
 
 .imagen-header {
-  background-image: url(../img/imagen-header.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: left; 
   padding-left: 1.5rem;
 }
+@media all and (min-width: 576px) {
+  .imagen-header {
+    background-image: url(../img/imagen-header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left; 
+  }
+}
+
 @media all and (min-width: 768px) {
   .imagen-header {
     padding-left: 4rem;
